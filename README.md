@@ -17,21 +17,21 @@ The project consists of three main tables:
 - Published_Year
 - Price
 - Stock
-  2. Customers
+2. Customers
 - Customer_ID (Primary Key)
 - Name
 - Email
 - Phone
 - City
 - Country
-  3. Orders
+3. Orders
 - Order_ID (Primary Key)
 - Customer_ID (Foreign Key → Customers)
 - Book_ID (Foreign Key → Books)
 - Order_Date
 - Quantity
 - Total_Amount
-🧩 Basic Queries
+#🧩 Basic Queries
     1. Retrieve all books in the Fiction genre
     2. Find books published after the year 1950
     3. List all customers from Canada
@@ -43,7 +43,7 @@ The project consists of three main tables:
     9. List all genres available in the Books table
     10. Find the book with the lowest stock
     11. Calculate the total revenue generated from all orders
-🚀 Advanced Queries
+#🚀 Advanced Queries
     1. Retrieve the total number of books sold per genre
     2. Find the average price of books in the Fantasy genre
     3. List customers who have placed at least 2 orders
@@ -57,7 +57,7 @@ The project consists of three main tables:
     11.Top-selling genre by revenue
     12.Customer lifetime value (CLV) 
     13. Books never ordered
-Purpose of the Project
+#Purpose of the Project
 The purpose of this project is to:
 - Model a bookstore database using PostgreSQL with normalized tables for books, customers, and orders.
 - Practice SQL fundamentals through basic queries (retrieving records, filtering, aggregations).

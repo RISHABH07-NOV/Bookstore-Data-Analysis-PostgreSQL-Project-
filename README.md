@@ -9,7 +9,7 @@ Dataset used
 SQL FILE:-[View SQL PROJECT.sql](https://github.com/RISHABH07-NOV/Bookstore-Data-Analysis-PostgreSQL-Project-/blob/main/SQL%20PROJECT.sql)
 Database Schema
 The project consists of three main tables:
-    1. Books
+1. Books
 - Book_ID (Primary Key)
 - Title
 - Author
@@ -17,14 +17,14 @@ The project consists of three main tables:
 - Published_Year
 - Price
 - Stock
-    2. Customers
+  2. Customers
 - Customer_ID (Primary Key)
 - Name
 - Email
 - Phone
 - City
 - Country
-    3. Orders
+  3. Orders
 - Order_ID (Primary Key)
 - Customer_ID (Foreign Key → Customers)
 - Book_ID (Foreign Key → Books)
@@ -53,20 +53,20 @@ The project consists of three main tables:
     7. List the cities where customers who spent over $30 are located
     8. Find the customer who spent the most on orders
     9. Calculate the stock remaining after fulfilling all orders
-      10.Monthly revenue trend 
-      11.Top-selling genre by revenue
-      12.Customer lifetime value (CLV) 
-       13. Books never ordered
+    10.Monthly revenue trend 
+    11.Top-selling genre by revenue
+    12.Customer lifetime value (CLV) 
+    13. Books never ordered
 Purpose of the Project
 The purpose of this project is to:
-    • Model a bookstore database using PostgreSQL with normalized tables for books, customers, and orders.
-    • Practice SQL fundamentals through basic queries (retrieving records, filtering, aggregations).
-    • Showcase analytical skills with advanced queries (joins, grouping, window functions, CTEs).
-    • Provide business insights such as:
-        ◦ Identifying top customers and bestselling books
-        ◦ Tracking revenue trends and customer lifetime value
-        ◦ Monitoring inventory levels and stock utilization
-        ◦ Analyzing genre‑wise and author‑wise performance
+- Model a bookstore database using PostgreSQL with normalized tables for books, customers, and orders.
+- Practice SQL fundamentals through basic queries (retrieving records, filtering, aggregations).
+- Showcase analytical skills with advanced queries (joins, grouping, window functions, CTEs).
+- Provide business insights such as:
+- Identifying top customers and bestselling books
+- Tracking revenue trends and customer lifetime value
+- Monitoring inventory levels and stock utilization
+- Analyzing genre‑wise and author‑wise performance
 
 🔎 Analytical Enhancements
     • Window Functions: Ranking customers by spending

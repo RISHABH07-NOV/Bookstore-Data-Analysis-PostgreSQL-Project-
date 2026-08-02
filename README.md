@@ -7,6 +7,7 @@ Dataset used
 - customer.csv:-[View Customers.csv](https://github.com/RISHABH07-NOV/Bookstore-Data-Analysis-PostgreSQL-Project-/blob/main/Customers.csv)
 - books.csv:-[View Books.csv](https://github.com/RISHABH07-NOV/Bookstore-Data-Analysis-PostgreSQL-Project-/blob/main/Books.csv)
 - SQL FILE:-[View SQL PROJECT.sql](https://github.com/RISHABH07-NOV/Bookstore-Data-Analysis-PostgreSQL-Project-/blob/main/SQL%20PROJECT.sql)
+
 Database Schema
 
 The project consists of three main tables:
@@ -75,5 +76,6 @@ The purpose of this project is to:
 - Analyzing genre‑wise and author‑wise performance
 
 🔎 Analytical Enhancements
-    • Window Functions: Ranking customers by spending
-    • CTEs: Modular queries for genre-based revenue analysis
+
+- Window Functions: Ranking customers by spending
+- CTEs: Modular queries for genre-based revenue analysis
